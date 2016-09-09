@@ -29,7 +29,7 @@ export default class Images extends Component {
     return (
       <ListView style={styles.list}
         dataSource={this.state.dataSource}
-        renderRow={imageSource => <MemeImage source={imageSource}/>}
+        renderRow={imageSource => <MemeImage source={imageSource} openMemeBuilder={this.props.openMemeBuilder}/>}
       />
 
     )
@@ -37,8 +37,8 @@ export default class Images extends Component {
 
 }
 
-const MemeImage = ({source}) =>
-  <TouchableOpacity onPress={() => console.log('Pressed image', source)}>
+const MemeImage = ({source, openMemeBuilder}) =>
+  <TouchableOpacity onPress={() =>openMemeBuilder(source)}>
     <Image source={source} style={styles.image}/>
   </TouchableOpacity>;
 

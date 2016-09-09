@@ -11,10 +11,10 @@ import InputBox from './InputBox';
 import Images from './Images';
 import theme from './theme';
 
-export default function HomeScreen () {
+export default function HomeScreen ({openMemeBuilder}) {
   return (
     <View style={styles.container}>
-      <Images />
+      <Images openMemeBuilder={openMemeBuilder}/>
 
       {
         Platform.OS === 'ios' && <Text>I see you're on iOS</Text>

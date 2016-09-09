@@ -4,6 +4,6 @@
  * @flow
  */
 import {AppRegistry} from 'react-native';
-import HomeScreen from './src/HomeScreen';
+import App from './src/App';
 
-AppRegistry.registerComponent('MemeBuilder', () => HomeScreen);
+AppRegistry.registerComponent('MemeBuilder', () => App);
