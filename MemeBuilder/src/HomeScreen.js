@@ -8,12 +8,13 @@ import {
   View
 } from 'react-native';
 import InputBox from './InputBox';
+import Images from './Images';
 import theme from './theme';
 
 export default function HomeScreen () {
   return (
     <View style={styles.container}>
-      <Image source={require('../images/wonka.jpg')}/>
+      <Images />
 
       {
         Platform.OS === 'ios' && <Text>I see you're on iOS</Text>
