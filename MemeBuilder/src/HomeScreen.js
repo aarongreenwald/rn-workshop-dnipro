@@ -2,27 +2,16 @@
 import React, { Component } from 'react';
 import {
   StyleSheet,
-  Text,
+  Image,
   View
 } from 'react-native';
 
-export default class HomeScreen extends Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          I've started!!
-        </Text>
-        <Text style={styles.instructions}>
-          This is both Android and iOS, so I
-          won't give specific emulator instructions. Figure it out yourself! :-P
-        </Text>
-      </View>
-    );
-  }
+export default function HomeScreen () {
+  return (
+    <View style={styles.container}>
+      <Image source={require('../images/wonka.jpg')}/>
+    </View>
+  );
 }
 
 const styles = StyleSheet.create({
@@ -31,15 +20,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
+  }
 });
