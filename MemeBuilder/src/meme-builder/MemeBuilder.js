@@ -1,11 +1,6 @@
 import React, {Component} from 'react';
-import {
-  StyleSheet,
-  Image,
-  Text,
-  View
-} from 'react-native';
-import theme from './theme';
+import {StyleSheet, Image, Text, View} from 'react-native';
+import theme from '../theme';
 import InputBox from './InputBox';
 
 export default class MemeBuilder extends Component {

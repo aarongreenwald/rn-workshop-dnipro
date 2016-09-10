@@ -1,4 +1,3 @@
-
 import React from 'react';
 import {
   StyleSheet,
@@ -8,7 +7,7 @@ import {
   View
 } from 'react-native';
 import Images from './Images';
-import theme from './theme';
+import theme from '../theme';
 
 export default function HomeScreen ({openMemeBuilder}) {
   return (
