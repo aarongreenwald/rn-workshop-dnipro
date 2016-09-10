@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {StyleSheet, Image, Text, View} from 'react-native';
+import {StyleSheet, Image, Text, View, Slider} from 'react-native';
 import theme from '../theme';
 import InputBox from './InputBox';
 
@@ -9,7 +9,8 @@ export default class MemeBuilder extends Component {
     super(props);
     this.state = {
       topText: '',
-      bottomText: ''
+      bottomText: '',
+      size: 320
     };
   }
 
@@ -24,14 +25,21 @@ export default class MemeBuilder extends Component {
         <InputBox placeholder={'Bottom text...'}
                   onChangeText={value => this.setState({bottomText: value})}
                   value={this.state.bottomText}/>
-        <Image source={imageSource} style={styles.image}>
+        <Image source={imageSource} style={{width: this.state.size, height: this.state.size}}>
           <Text style={[styles.text, styles.topText]}>{this.state.topText}</Text>
           <Text style={[styles.text, styles.bottomText]}>{this.state.bottomText}</Text>
         </Image>
+        <View style={styles.sliderContainer}>
+          <Slider onValueChange={size => this.setState({size})}
+                  value={320}
+                  minimumValue={100}
+                  maximumValue={500}
+                  step={2}
+                  style={styles.slider}/>
+        </View>
       </View>
     );
   }
-
 }
 
 const styles = StyleSheet.create({
@@ -40,10 +48,6 @@ const styles = StyleSheet.create({
     paddingTop: 30,
     alignItems: 'center',
     backgroundColor: theme.backgroundColor,
-  },
-  image: {
-    width: 320,
-    height: 320
   },
   topText: {
     position: 'absolute',
@@ -60,5 +64,14 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(10, 10, 10, .5)',
     color: '#fff',
     fontSize: 26
+  },
+  sliderContainer: {
+    flexDirection: 'row',
+    padding: 20,
+    position: 'absolute',
+    bottom: 0
+  },
+  slider: {
+    flex: 1
   }
 });
