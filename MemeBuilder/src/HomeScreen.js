@@ -7,7 +7,6 @@ import {
   Platform,
   View
 } from 'react-native';
-import InputBox from './InputBox';
 import Images from './Images';
 import theme from './theme';
 
@@ -23,8 +22,6 @@ export default function HomeScreen ({openMemeBuilder}) {
       {
         Platform.OS === 'android' && <Text>I see you're on Android</Text>
       }
-
-      <InputBox />
     </View>
   );
 }

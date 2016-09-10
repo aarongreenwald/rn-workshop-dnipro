@@ -1,10 +1,11 @@
 import React from 'react';
 import {
-  View
+  TextInput
 } from 'react-native';
 
-export default function () {
+export default function (props) {
   return (
-    <View />
-  );
+    <TextInput style={{flexDirection: 'row', height: 30, margin: 10, backgroundColor: '#fff', borderWidth: 1}}
+               {...props}
+    />  );
 }
