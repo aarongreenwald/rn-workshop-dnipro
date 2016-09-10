@@ -15,9 +15,10 @@ const styles = StyleSheet.create({
   },
   input: {
     flex: 1,
-    height: 30,
+    height: 50,
     margin: 10,
+    padding: 5,
     backgroundColor: '#fff',
-    borderWidth: 1
+    fontSize: 24,
   }
 });

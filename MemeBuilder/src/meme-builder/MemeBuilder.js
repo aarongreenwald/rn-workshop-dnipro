@@ -18,10 +18,10 @@ export default class MemeBuilder extends Component {
     return (
       <View style={styles.container}>
         <InputBox
-          placeholder={'Top text'}
+          placeholder={'Top text...'}
           onChangeText={value => this.setState({topText: value})}
           value={this.state.topText}/>
-        <InputBox placeholder={'Bottom text'}
+        <InputBox placeholder={'Bottom text...'}
                   onChangeText={value => this.setState({bottomText: value})}
                   value={this.state.bottomText}/>
         <Image source={imageSource} style={styles.image}>

@@ -4,7 +4,7 @@ import {TextInput, View, StyleSheet} from 'react-native';
 export default function (props) {
   return (
     <View style={styles.container}>
-      <TextInput style={styles.input} {...props}/>
+      <TextInput style={styles.input} {...props} multiline={true} numberOfLines={1}/>
     </View>
   );
 }
@@ -15,9 +15,11 @@ const styles = StyleSheet.create({
   },
   input: {
     flex: 1,
-    height: 30,
+    height: 50,
     margin: 10,
-    backgroundColor: '#fff',
-    borderWidth: 1
+    padding: 5,
+    fontSize: 24,
+    borderBottomWidth: 1,
+    borderBottomColor: '#ccc'
   }
 });
