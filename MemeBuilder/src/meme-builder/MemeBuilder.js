@@ -24,7 +24,7 @@ export default class MemeBuilder extends Component {
         <InputBox placeholder={'Bottom text'}
                   onChangeText={value => this.setState({bottomText: value})}
                   value={this.state.bottomText}/>
-        <Image source={imageSource} style={{width: 320, height: 320}}>
+        <Image source={imageSource} style={styles.image}>
           <Text style={[styles.text, styles.topText]}>{this.state.topText}</Text>
           <Text style={[styles.text, styles.bottomText]}>{this.state.bottomText}</Text>
         </Image>
@@ -40,6 +40,10 @@ const styles = StyleSheet.create({
     paddingTop: 30,
     alignItems: 'center',
     backgroundColor: theme.backgroundColor,
+  },
+  image: {
+    width: 320,
+    height: 320
   },
   topText: {
     position: 'absolute',

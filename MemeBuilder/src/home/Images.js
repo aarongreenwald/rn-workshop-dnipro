@@ -27,16 +27,16 @@ export default class Images extends Component {
     }
   }
 
-  renderRow(row) {
+  renderRow(source) {
     return (
-      <MemeImage source={row} openMemeBuilder={this.props.openMemeBuilder}/>
+      <MemeImage source={source} openMemeBuilder={this.props.openMemeBuilder}/>
     );
   }
 
 
   render() {
     return (
-      <View style={{flexDirection: 'row', flex: 1}}>
+      <View style={styles.container}>
         <ListView contentContainerStyle={styles.list}
                   dataSource={this.state.dataSource}
                   renderRow={this.renderRow.bind(this)} />
@@ -47,10 +47,14 @@ export default class Images extends Component {
 
 const MemeImage = ({source, openMemeBuilder}) =>
   <TouchableOpacity onPress={() => openMemeBuilder(source)} style={styles.image}>
-    <Image source={source} style={styles.image}/>
+    <Image source={source} />
   </TouchableOpacity>;
 
 const styles = StyleSheet.create({
+  container: {
+    flexDirection: 'row',
+    flex: 1
+  },
   image: {
     width: 150,
     height: 150,

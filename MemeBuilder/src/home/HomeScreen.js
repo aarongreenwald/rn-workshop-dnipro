@@ -1,11 +1,5 @@
 import React from 'react';
-import {
-  StyleSheet,
-  Image,
-  Text,
-  Platform,
-  View
-} from 'react-native';
+import {StyleSheet, Text, Platform, View} from 'react-native';
 import Images from './Images';
 import theme from '../theme';
 

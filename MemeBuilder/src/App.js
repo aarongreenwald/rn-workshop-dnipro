@@ -1,5 +1,5 @@
 import React from 'react';
-import {Navigator, Text, TouchableOpacity} from 'react-native';
+import {Navigator, Text, TouchableOpacity, StyleSheet} from 'react-native';
 import HomeScreen from './home/HomeScreen';
 import MemeBuilder from './meme-builder/MemeBuilder';
 
@@ -15,7 +15,7 @@ export default function App() {
             RightButton: () => {},
             Title: () => {}
           }}
-          style={{height: 50}}
+          style={styles.navigationBar}
         />
       }
     />
@@ -33,7 +33,16 @@ const renderScene = (route, navigator) => {
 
 const BackButton = ({route, navigator}) =>
   route.id === 'meme-builder' ?
-    <TouchableOpacity onPress={() => navigator.pop()} style={{paddingLeft: 10}}>
+    <TouchableOpacity onPress={navigator.pop} style={styles.backButton}>
       <Text>Back</Text>
     </TouchableOpacity> :
   null;
+
+const styles = StyleSheet.create({
+  backButton: {
+    paddingLeft: 10
+  },
+  navigationBar: {
+    height: 50
+  }
+});
