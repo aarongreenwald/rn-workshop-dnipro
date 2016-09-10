@@ -15,18 +15,7 @@ const imageSources = [
   require('../../images/waiting.jpg'),
   require('../../images/yes.jpg'),
   require('../../images/yoda.jpg')
-].reduce((acc, item) => {
-  if (!acc.length) {
-    acc[0] = [item];
-  }
-  else if (acc[acc.length - 1].length === 1) {
-    acc[acc.length - 1].push(item);
-  }
-  else {
-    acc.push([item]);
-  }
-  return acc;
-}, []);
+];
 
 export default class Images extends Component {
 
@@ -40,10 +29,7 @@ export default class Images extends Component {
 
   renderRow(row) {
     return (
-      <View style={{flexDirection: 'row', justifyContent: 'center'}}>
-        <MemeImage source={row[0]} openMemeBuilder={this.props.openMemeBuilder}/>
-        <MemeImage source={row[1]} openMemeBuilder={this.props.openMemeBuilder}/>
-      </View>
+      <MemeImage source={row} openMemeBuilder={this.props.openMemeBuilder}/>
     );
   }
 
@@ -51,25 +37,29 @@ export default class Images extends Component {
   render() {
     return (
       <View style={{flexDirection: 'row', flex: 1}}>
-        <ListView style={styles.list}
-          dataSource={this.state.dataSource}
-          renderRow={this.renderRow.bind(this)}
-        />
+        <ListView contentContainerStyle={styles.list}
+                  dataSource={this.state.dataSource}
+                  renderRow={this.renderRow.bind(this)} />
       </View>
     );
   }
 }
 
 const MemeImage = ({source, openMemeBuilder}) =>
-  <TouchableOpacity onPress={() =>openMemeBuilder(source)}>
+  <TouchableOpacity onPress={() => openMemeBuilder(source)} style={styles.image}>
     <Image source={source} style={styles.image}/>
   </TouchableOpacity>;
 
 const styles = StyleSheet.create({
   image: {
-    margin: 5,
+    width: 150,
+    height: 150,
+    margin: 5
   },
   list: {
+    justifyContent: 'center',
+    flexDirection: 'row',
+    flexWrap: 'wrap',
     marginTop: 20,
     marginBottom: 20
   }
