@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {StyleSheet, Image, Text, View, Slider} from 'react-native';
+import {StyleSheet, Image, Text, View, Slider, Animated} from 'react-native';
 import theme from '../theme';
 import InputBox from './InputBox';
 
@@ -10,8 +10,15 @@ export default class MemeBuilder extends Component {
     this.state = {
       topText: '',
       bottomText: '',
-      size: 320
+      size: new Animated.Value(320)
     };
+  }
+
+  setSize(size) {
+    Animated.spring(this.state.size, {
+      friction: 2,
+      toValue: size
+    }).start();
   }
 
   render() {
@@ -19,18 +26,19 @@ export default class MemeBuilder extends Component {
     return (
       <View style={styles.container}>
         <InputBox
+
           placeholder={'Top text...'}
           onChangeText={value => this.setState({topText: value})}
           value={this.state.topText}/>
         <InputBox placeholder={'Bottom text...'}
                   onChangeText={value => this.setState({bottomText: value})}
                   value={this.state.bottomText}/>
-        <Image source={imageSource} style={{width: this.state.size, height: this.state.size}}>
+        <Animated.Image source={imageSource} style={{width: this.state.size, height: this.state.size}}>
           <Text style={[styles.text, styles.topText]}>{this.state.topText}</Text>
           <Text style={[styles.text, styles.bottomText]}>{this.state.bottomText}</Text>
-        </Image>
+        </Animated.Image>
         <View style={styles.sliderContainer}>
-          <Slider onValueChange={size => this.setState({size})}
+          <Slider onSlidingComplete={this.setSize.bind(this)}
                   value={320}
                   minimumValue={100}
                   maximumValue={500}
