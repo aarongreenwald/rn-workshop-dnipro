@@ -81,5 +81,3 @@ with just that image centered in middle of the screen.
 1. Use flexbox to take up the full width of `HomeScreen` by wrapping the images into a grid instead of a simple list
 https://github.com/yelled3/react-native-grid-example
 1. Add a back button to the MemeBuilder screen
-
-
