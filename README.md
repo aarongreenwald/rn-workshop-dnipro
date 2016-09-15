@@ -1,7 +1,7 @@
 ## Introduction
 
-This repository accompanies the 11/09/2016 Wix Engineering workshop in Be'er Sheva: 
-[React Native: The Game Changer](http://www.wix.engineering/react-native-the-game-changer). 
+This repository accompanies the 15/09/2016 Wix Engineering workshop in Dnipro, Ukraine: 
+[React Native: The Game Changer](http://www.wix.engineering/rn-the-game-changer). 
 Together, we're going to build a very simple app that exposes us to the most basic 
 components of a React Native developer's toolkit. We'll work through some of the steps 
 together and leave some for you to try on your own. 
@@ -81,3 +81,11 @@ with just that image centered in middle of the screen.
 1. Use flexbox to take up the full width of `HomeScreen` by wrapping the images into a grid instead of a simple list
 https://github.com/yelled3/react-native-grid-example
 1. Add a back button to the MemeBuilder screen
+
+## Step 7 - Dynamic Styles
+1. Add a slider to the `MemeBuilder` screen that controls the size of the image. It should grow and shrink as the user
+slides the slider. The image should always be a square.
+
+## Step 8 - Animations
+1. Change the image resize behavior - instead of responding as the user slides, it should only resize after the user stops
+sliding. It should animate using a "spring" bounce from the previous size to the new size.
