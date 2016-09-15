@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-fbcore-0.11.0_94709f7a27236709b0c47514ce50b285707a0333/classes.dex" />
+    </item>
+    <item
+        jar="/Users/aarong/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.2.3_60aa02ee1862f62c4fdb4f96c7a186d3914cb94c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.2.1_2bd00a0de50dab850a5fce3970f83d2e5ff506af/classes.dex" />
+    </item>
+    <item
+        jar="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.0.1_d7b9a57aa2181b7a44caa0dad36c5d94ea21735b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-imagepipeline-0.11.0_41b3ebdb7f6a21355c9e07b212fb928eca9910b1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.32.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="5273afae5d54f7a1e9bc4ce6b12588b81e73615d">
+        <dex dex="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.react-react-native-0.32.1_2ee6de744bdc349e829a2ec149bbdaf6f33242c8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.2.1_cd442da16bb66ad49af06496ec56a79c166bfff6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ab9d9b0fc9f37f255994262b9471532e10a0d7e6">
+        <dex dex="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_92ea9298e5176fc50b1d15742ed3c8823852d900/classes.dex" />
+    </item>
+    <item
+        jar="/Users/aarong/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.4.1_68dc451e8018ebd5cdfd8117b748a74462b24f93/classes.dex" />
+    </item>
+    <item
+        jar="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.0.1_8835b1f88883d47d04aac976105337dae8ffc14b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/aarong/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/jsr305-3.0.0_3076c7944aa0a758afa4998dadcf0d7c3c029578/classes.dex" />
+    </item>
+    <item
+        jar="/Users/aarong/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-ws-3.4.1_6658401ca164b02583dcf1a6d804fa619895fa42/classes.dex" />
+    </item>
+    <item
+        jar="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-drawee-0.11.0_2fee76559ae6a377606f7ab131b824364079f71f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="7c6fe01f4baa53ba8854e9e08ebb177e2a9f0d55">
+        <dex dex="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9f919167fcf53998a5498ddfbd34d4e3fa78d29d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-imagepipeline-base-0.11.0_f6affaa7a7d4f7ab47f1964ea7c2b9cbe0206104/classes.dex" />
+    </item>
+    <item
+        jar="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.32.1/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="008fcbba8c649528dab7dc52c6a94957f4cfb8f0">
+        <dex dex="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/infer-annotations-1.5_2aa069848683d97054bcfa9f031a39e3bc80e135/classes.dex" />
+    </item>
+    <item
+        jar="/Users/aarong/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_2cc19c18bd668a9917eafa7f04235a981067f0a9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-fresco-0.11.0_4d50b41a65f3629c15d5990d3b0a43d833c237ea/classes.dex" />
+    </item>
+    <item
+        jar="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
+        <dex dex="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-imagepipeline-okhttp3-0.11.0_3c928265512e054a9712da55a05bf259e9278d14/classes.dex" />
+    </item>
+    <item
+        jar="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.soloader-soloader-0.1.0_e35784fcf413713d99cf23ba0fa3152a73a3b992/classes.dex" />
+    </item>
+    <item
+        jar="/Users/aarong/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.2.1_8eb40fc4b2bcaca66b14356caecaaccf51d1c2a0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/aarong/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-urlconnection-3.4.1_f327ab19d52f459447bdc8403f93b5a896de6c94/classes.dex" />
+    </item>
+    <item
+        jar="/Users/aarong/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.9.0_ebe87bb0b4013bebcfe2efac0eae4d057e28312a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/aarong/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/aarong/code/rn-workshop-b7/MemeBuilder/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_c9182f87d914165422cb23a1dea91fc99ad12609/classes.dex" />
+    </item>
+
+</items>
