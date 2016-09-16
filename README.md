@@ -1,6 +1,6 @@
 ## Introduction
 
-This repository accompanies the 15/09/2016 Wix Engineering workshop in Dnipro, Ukraine: 
+This repository accompanies the 16/09/2016 Wix Engineering workshop in Dnipro, Ukraine: 
 [React Native: The Game Changer](http://www.wix.engineering/rn-the-game-changer). 
 Together, we're going to build a very simple app that exposes us to the most basic 
 components of a React Native developer's toolkit. We'll work through some of the steps 
